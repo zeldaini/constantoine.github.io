@@ -1,11 +1,29 @@
 body {
-  padding-top: 70px;
+	padding-top: 70px;
+}
+	
+*[id]:before { 
+	display: block; 
+	content: " "; 
+	margin-top: -75px; 
+	height: 75px; 
+	visibility: hidden; 
+}
+	
+h1 {
+	color: red;
+	font-size: 34px;
+	text-align: center;
 }
 
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -75px; 
-  height: 75px; 
-  visibility: hidden; 
+h2 {
+	color: red;
+	font-size: 26px;
+	text-align: left;
+}
+
+h3 {
+	color: green;
+	font-size: 18px;
+	text-align: left;
 }
